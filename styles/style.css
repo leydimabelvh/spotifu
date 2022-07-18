@@ -1,5 +1,10 @@
 @import './icon.css';
 @import './font.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './logo.css';
+@import './list.css';
 
 :root {
     /* Colors*/
@@ -14,12 +19,14 @@
 
     /* Font */
     --baseFontFamily: Avenir, Helvetica, sans-serif;
+    
     /* Text styles */
-    /* font: font-style, font-variant, font-weight, font-size, font-height, font-family; */
+    /* SYNTAX → font: font-style, font-variant, font-weight, font-size, font-height, font-family; */
     --headline1: 900 2rem/normal var(--baseFontFamily); 
     --headline2: 800 1.5rem/1.75rem var(--baseFontFamily); 
     --baseFont: normal .875rem/1.375rem var(--baseFontFamily); 
     --baseFontBold: 900 .875rem/1.375rem var(--baseFontFamily); 
     --button: bold .875rem/1rem var(--baseFontFamily); 
-    --small: 500 .75rem/normal var(--baseFontFamily); 
+    --small: 500 .75em/normal var(--baseFontFamily); 
+    /*'small' will be 75 % of the size of its parent*/
 }
