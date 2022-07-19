@@ -1,0 +1,6 @@
+@import './menu-item.css';
+
+.menu-list {
+    padding: 0;
+    margin: 0;
+}
