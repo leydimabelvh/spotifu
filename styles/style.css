@@ -6,6 +6,7 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
+@import './player-control.css';
 
 :root {
     /* Colors*/
