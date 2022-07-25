@@ -9,6 +9,7 @@
 @import './player-control.css';
 @import './player-playback.css';
 @import './volume-control.css';
+@import './player.css';
 
 :root {
     /* Colors*/
