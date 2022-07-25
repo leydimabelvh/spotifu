@@ -8,4 +8,7 @@
     background-color: transparent;
     color: var(--gray10);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
