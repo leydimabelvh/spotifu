@@ -8,6 +8,7 @@
 @import './slider.css';
 @import './player-control.css';
 @import './player-playback.css';
+@import './volume-control.css';
 
 :root {
     /* Colors*/

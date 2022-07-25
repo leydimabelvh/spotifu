@@ -162,7 +162,7 @@
     </div>
     
     <div class="playerControl">
-        <div class="playerControl-button">
+        <div class="playerControl-button" aria-label="Playback control">
             <button class="buttonIcon" aria-label="Previous" title="Previous">
                 <i class="icon-prev"  aria-hidden="true"></i>
             </button>
@@ -183,6 +183,18 @@
                 </div>
             </div>
             <span class="playerPlayback-progressTime">03:25</span>
+        </div>
+    </div>
+    <div class="volumeControl">
+        <button aria-describedby="volume-icon" aria-label="Mute" title="Mute">
+            <i class="icon-volume-up" id="volume-icon" role="presentation" aria-label="Volume up"></i>
+        </button> 
+        <div class="volumeControl-slider">
+            <div class="slider">
+                <div class="slider-progress">
+                    <button class="slider-button" aria-label="Control audio playback volume"></button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
