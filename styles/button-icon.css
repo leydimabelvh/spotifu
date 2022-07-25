@@ -1,5 +1,5 @@
 .buttonIcon {
-    background-color: var(--gray20);
+    background-color: transparent;
     color: var(--gray10);
     inline-size: 2.5rem;
     block-size: 2.5rem;
