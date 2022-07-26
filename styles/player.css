@@ -1,5 +1,17 @@
-.player {
+@import './slider.css';
+@import './player-control.css';
+@import './player-playback.css';
+@import './volume-control.css';
+@import './now-playing.css';
 
+.player {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    box-shadow: inset 0 1px 0 0 var(--gray30) ;
+}
+.player > * {
+    flex: 1;
 }
 .player-controller {
     font-size: 1.5rem;
@@ -11,4 +23,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.player-nowPlaying {
+    display: flex;
+    justify-content: flex-start;
+}
+.player-volumeControl {
+    display: flex;
+    justify-content: flex-end;
 }
