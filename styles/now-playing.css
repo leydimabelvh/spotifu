@@ -19,7 +19,7 @@
     justify-content: center;
 }
 .nowPlaying-title {
-    font: var(--baseFontBold) ;
+    font: var(--baseFont) ;
     color: var(--white);
 }
 .nowPlaying-artist {
