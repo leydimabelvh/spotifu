@@ -26,12 +26,20 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <form action="" class="search"  role="search" aria-label="Search by artists, songs or podcasts">
-        <i class="icon-search" aria-hidden="true"></i>
-        <input type="search" name="" id="" placeholder="Artistas, canciones o podcasts">
-    </form>
-
-
+    <div class="searching-container">
+        <div class="navigation">
+            <button class="navigation-prev" aria-label="Back" title="Back">
+                <i class="icon-arrow-left" aria-hidden="true"></i>
+            </button>
+            <button class="navigation-next" disabled aria-label="Next" title="Next">
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </button>
+        </div>
+        <form action="" class="search"  role="search" aria-label="Search by artists, songs or podcasts">
+            <i class="icon-search" aria-hidden="true"></i>
+            <input type="search" name="" id="" placeholder="Artistas, canciones o podcasts">
+        </form>
+    </div>
 
     <section class="playlistList">
         <div class="playlistList-top" aria-labelledby="region-1">
