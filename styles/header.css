@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    gap: 1rem; 
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    backdrop-filter: blur(2px);
+    background-color: rgb(18, 18, 18, .85);
+}
+
+@supports not (backdrop-filter: blur(10px)) {
+    .header {
+        background-color: var(--gray40);
+    }
+}
