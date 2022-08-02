@@ -27,36 +27,37 @@
 </head>
 <body class="body">
 
-    <header class="header" aria-label="Top bar and user menu">
-        <div class="searching-container">
-            <div class="navigation">
-                <button class="navigation-prev" aria-label="Back" title="Back">
-                    <i class="icon-arrow-left" aria-hidden="true"></i>
+    <div class="sticky">
+        <header class="header" aria-label="Top bar and user menu">
+            <div class="searching-container">
+                <div class="navigation">
+                    <button class="navigation-prev" aria-label="Back" title="Back">
+                        <i class="icon-arrow-left" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Next" title="Next">
+                        <i class="icon-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <form action="" class="search"  role="search" aria-label="Search by artists, songs or podcasts">
+                    <i class="icon-search" aria-hidden="true"></i>
+                    <input type="search" name="" id="" placeholder="Artistas, canciones o podcasts">
+                </form>
+            </div>
+            <div class="user">
+                <div class="user-profile">
+                    <img src="./assets/images/user/leydi-mabel.jpg" width="28" height="28" alt="User profile image">
+                </div>
+                <div class="user-detail">
+                    <span class="ellipsis">
+                        <h3 class="user-username">Leydi Mabel</h3>
+                    </span>
+                </div>
+                <button class="dropdown-toggle" aria-label="Dropdown Toogle" title="Dropdown Toogle">
+                    <i class="icon-vector" aria-hidden="true"></i>
                 </button>
-                <button class="navigation-next" disabled aria-label="Next" title="Next">
-                    <i class="icon-arrow-right" aria-hidden="true"></i>
-                </button>
             </div>
-            <form action="" class="search"  role="search" aria-label="Search by artists, songs or podcasts">
-                <i class="icon-search" aria-hidden="true"></i>
-                <input type="search" name="" id="" placeholder="Artistas, canciones o podcasts">
-            </form>
-        </div>
-        <div class="user">
-            <div class="user-profile">
-                <img src="./assets/images/user/leydi-mabel.jpg" width="28" height="28" alt="User profile image">
-            </div>
-            <div class="user-detail">
-                <span class="ellipsis">
-                    <h3 class="user-username">Leydi Mabel</h3>
-                </span>
-            </div>
-            <button class="dropdown-toggle" aria-label="Dropdown Toogle" title="Dropdown Toogle">
-                <i class="icon-vector" aria-hidden="true"></i>
-            </button>
-        </div>
-    </header>
-
+        </header>
+    </div>
     <section class="playlistList">
         <div class="playlistList-top" aria-labelledby="region-1">
             <div class="playlistList-heading">
