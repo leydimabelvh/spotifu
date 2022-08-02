@@ -1,10 +1,11 @@
 .navigation {
     display: flex;
     gap: .5rem;
+    align-items: center;
 }
 .navigation button {
     inline-size: 1.875rem;
-    aspect-ratio: 1/1;
+    block-size: 1.875rem;
     background-color: var(--gray60);
     color: var(--gray10);
     border-radius: 50%;
