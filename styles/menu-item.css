@@ -13,11 +13,12 @@
 .menuItem a:hover {
     text-decoration: none;
 }
-
+.menuItem a span {
+    font: var(--baseFontBold);
+}
 .menuItem [class^="icon-"] {
     font-size: 1.5rem;
 }
-
 .menuItem.is-active a {
     color: var(--white);
     box-shadow: inset 4px 0 0 0 var(--primary);
