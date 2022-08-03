@@ -3,8 +3,8 @@
     gap: 1rem; 
     justify-content: space-between;
     align-items: center;
-    padding-inline-start: 1.5rem;
-    padding-inline-end: 1.5rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
     padding-block-start: 1rem;
     padding-block-end: 1rem;
     backdrop-filter: blur(2px);
