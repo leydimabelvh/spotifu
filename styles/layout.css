@@ -17,6 +17,7 @@
     min-block-size: var(--minBlockSize);
     overflow: auto;
     flex-shrink: 0;
+    background-color: var(--gray60);
 }
 .layout-main {
     block-size: 100vh;
