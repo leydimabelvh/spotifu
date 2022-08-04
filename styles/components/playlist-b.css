@@ -1,0 +1,39 @@
+.playlistB{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: .5rem;
+    overflow: hidden;
+    inline-size: 17.5rem;
+    transition: .3s background-color;
+}
+.playlistB:hover, .playlistB:focus-within {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.playlistB-cover img {
+    inline-size: 4.75rem;
+    block-size: 4.75rem;
+    vertical-align: middle;
+}
+.playlistB-detail {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+.playlistB-detail button {
+    opacity: 0;
+    transition: .3s opacity;
+}
+.playlistB-detail button i {
+    color: var(--gray60);
+}
+.playlistB:hover .playlistB-detail button, .playlistB:focus-within .playlistB-detail button {
+    opacity: 1;
+}
+.playlistB-artist {
+    inline-size: 7.75rem;
+    color: var(--white);
+    font: var(--baseFontBold);
+    text-decoration: none;
+}

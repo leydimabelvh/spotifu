@@ -1,0 +1,13 @@
+.volumeControl {
+    display: flex;
+    align-items:center;
+    gap: .5rem;
+    padding-inline: .5rem;
+}
+.volumeControl-slider {
+    flex: 1;
+    inline-size: 6rem;
+}
+.volumeControl .slider-progress {
+    inline-size: 80%;
+}

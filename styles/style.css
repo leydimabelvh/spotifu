@@ -1,14 +1,14 @@
-@import './icon.css';
-@import './font.css';
-@import './body.css';
-@import './link.css';
-@import './button-icon.css';
-@import './sidebar.css';
-@import './ellipsis.css';
-@import './player.css';
-@import './page.css';
-@import './layout.css';
-@import './scrollbar.css';
+@import './components/icon.css';
+@import './components/font.css';
+@import './components/body.css';
+@import './components/link.css';
+@import './components/button-icon.css';
+@import './components/sidebar.css';
+@import './components/ellipsis.css';
+@import './components/player.css';
+@import './components/page.css';
+@import './components/layout.css';
+@import './components/scrollbar.css';
 
 :root {
     /* Colors*/

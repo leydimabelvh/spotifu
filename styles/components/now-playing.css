@@ -1,0 +1,35 @@
+.nowPlaying {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.nowPlaying-cover img {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+    vertical-align: middle;
+}
+.nowPlaying-detail {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.nowPlaying-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nowPlaying-title {
+    font: var(--baseFont) ;
+    color: var(--white);
+}
+.nowPlaying-artist {
+    font: var(--small) ;
+    color: var(--gray10);
+}
+.nowPlaying-title, .nowPlaying-artist {
+    text-decoration: none;
+}
+.nowPlaying-title:hover, .nowPlaying-artist:hover {
+    text-decoration: underline;
+    color: var(--white);
+}
