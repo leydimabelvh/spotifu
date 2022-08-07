@@ -1,0 +1,21 @@
+.identifier-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.identifier-heading {
+    color: var(--white);
+    font: var(--baseFontBold);
+}
+.identifier-title{
+    padding-block-end: 1rem;
+}
+.identifier-titleAlbum{
+    font: var(--headline1);
+    font-size: 4.2rem;
+    color: var(--white);  
+    margin: 0;
+    white-space: nowrap;
+    letter-spacing: -.25rem;    
+}
