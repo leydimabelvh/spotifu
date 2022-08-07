@@ -1,0 +1,23 @@
+@import './identifier-about.css';
+@import './identifier-info.css';
+
+.identifier {
+    background-image: linear-gradient(15deg, #116f76 0%, #80d0c7 100%);
+    background-color: #116f76;
+    block-size: 20rem;
+    padding: 2rem;
+    padding-block-end: 6rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.5rem;
+    white-space: nowrap;
+}
+.identifier-coverAlbum {
+    box-shadow: 0 .5rem .5rem 0 var(--gray50);
+}
+.identifier-coverAlbum img {
+    inline-size: 12.5rem;
+    block-size: 12.5rem;
+    vertical-align: middle;
+}
