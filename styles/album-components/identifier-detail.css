@@ -1,0 +1,30 @@
+.identifier-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+}
+.identifier-nameSinger {
+    font: var(--baseFontBold);
+    color: var(--white);
+    white-space: nowrap;
+}
+.identifier-date::before, .identifier-date::after {
+    content: " ● ";
+    font-size: .5rem;
+}
+.identifier-date, .identifier-quantity, .identifier-time {
+    margin: 0;
+    padding: 0;
+    font: var(--baseFont);
+    white-space: nowrap;
+}
+.identifier-date {
+    color: var(--white);
+}
+.identifier-quantity {
+    color: var(--white);
+}
+.identifier-time {
+    color: rgba(255, 255, 255, .5);
+}
