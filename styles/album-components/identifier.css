@@ -17,7 +17,7 @@
     box-shadow: 0 .5rem .5rem 0 var(--gray50);
 }
 .identifier-coverAlbum img {
-    inline-size: 12.5rem;
-    block-size: 12.5rem;
+    inline-size: 15rem;
+    block-size: 15rem;
     vertical-align: middle;
 }
