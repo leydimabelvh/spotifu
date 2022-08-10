@@ -1,40 +1,31 @@
-.header-album {
+@import './album-container.css';
+
+.albumHeader {
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 -1px 0 0 var(--gray30);
+    margin-block-end: 1rem;
 }
-.header-title {
+.titleHeader {
     font: var(--small);
     text-transform: uppercase;
-    padding-inline-start: .875rem;  
-    padding-inline-end: .875rem;      
 }
-.title-numberSong {
-    letter-spacing: .0625rem;
-    flex-shrink: 0;
-}
-.numberSong{
+.numberSong-title {
     text-align: center;
+    letter-spacing: .0625rem;
 }
-.title-nameSong {
-    flex: 4;
-}
-.nameSong {
+.nameSong-title {
     text-align: left;
 }
-.title-playSong{
-    flex: 2;
-}
-.playSong {
+.playSong-title {
     text-align: right;
 }
-.title-durationSong {
-    flex: 1;
-    text-align: right;
+.durationSong-title {
     display: flex;
     align-items: center;
     justify-content: flex-end;    
+    inline-size: 3rem;
 }
 .icon-clock {
     font-size: 1rem;
