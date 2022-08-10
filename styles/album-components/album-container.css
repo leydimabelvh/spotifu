@@ -1,0 +1,14 @@
+.numberSong {
+    inline-size: 3rem;
+    flex-shrink: 0;
+}
+.nameSong {
+    flex: 4;
+}
+.playSong{
+    flex: 2;
+}
+.durationSong {
+    inline-size: 3rem;
+    flex: 1;
+}
