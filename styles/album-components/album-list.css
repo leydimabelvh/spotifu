@@ -1,0 +1,53 @@
+@import './album-container.css';
+
+/* .albumList {
+    padding-block-start: .5rem;
+    padding-block-end: .5rem;
+} */
+.song {
+    display: flex;
+    padding-block-start: .5rem;
+    padding-block-end: .5rem;
+}
+.numberSong-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 3rem;
+}
+.play-song {
+    display: none;
+    color: var(--white);
+}
+.numberSong-container:hover .play-song {
+    display: block;
+}
+.numberSong-container:hover .numberSong-enumeration {
+    display: none;
+}
+.nameSong-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.nameSong-name {
+    color: var(--white);
+    font: var(--button);
+}
+.nameSong-artist {
+    font: var(--small);
+}
+.nameSong-name, .nameSong-artist {
+    margin: 0;
+}
+.playSong-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.durationSong-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    inline-size: 3rem;
+}
