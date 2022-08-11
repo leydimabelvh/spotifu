@@ -1,0 +1,6 @@
+.albumCopyright > * {
+    margin: 0;
+}
+.albumCopyright-info {
+    font: var(--small);
+}
