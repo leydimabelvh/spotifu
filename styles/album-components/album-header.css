@@ -1,4 +1,4 @@
-@import './album-container.css';
+@import './album-item.css';
 
 .albumHeader {
     display: flex;
