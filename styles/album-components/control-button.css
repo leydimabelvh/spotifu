@@ -1,0 +1,25 @@
+.controlButton-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.controlButton-secondary {
+    display: flex;
+    gap: .25rem;
+}
+.controlButton-container [class*='icon-']{
+    font-size: 1.25rem;
+}
+.playAlbum, .saveAlbum, .downloadAlbum {
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+}
+.playAlbum .icon-play{
+    color: var(--gray60);
+}
+.saveAlbum .icon-heart, .downloadAlbum .icon-download {
+    font-size: 1.75rem;
+}
+.saveAlbum {
+    color: var(--primary);
+}
