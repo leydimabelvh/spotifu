@@ -1,0 +1,9 @@
+@import './album-header.css';
+@import './album-list.css';
+
+.albumListing-block {
+    /* background-color: var(--gray50); */
+}
+.albumListing-block .albumHeader {
+    /* background-color: var(--gray40); */
+}
