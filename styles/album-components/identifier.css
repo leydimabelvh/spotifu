@@ -2,11 +2,9 @@
 @import './identifier-info.css';
 
 .identifier {
-    background-image: linear-gradient(15deg, #116f76 0%, #80d0c7 100%);
-    background-color: #116f76;
     block-size: 20rem;
     padding: 2rem;
-    padding-block-end: 6rem;
+    padding-block-end: 2rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
