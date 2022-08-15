@@ -1,8 +1,18 @@
 @import './identifier.css';
 @import './album-container.css';
+@import './album-heading.css';
 
-.albumPage {
+.album-page {
     background: rgb(18,18,18);
     background: linear-gradient(0deg, rgb(18, 18, 18, 1) 0%, rgba(18,18,18,1) 10%, rgba(18,18,18,1) 20%, rgba(18,18,18,1) 30%, rgba(18,18,18,1) 40%, rgba(18,18,18,1) 50%, rgba(24,24,24,1) 60%, rgba(41,68,68,1) 66%, rgba(79,170,170,1) 83%, rgba(83,179,179,1) 90%, rgba(84,183,183,1) 100%);
 }
-
+.album-page-block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.album-page-block .header {
+    background-color: #235050;
+    padding-block-start: .6875rem;
+    padding-block-end: .6875rem;
+}
