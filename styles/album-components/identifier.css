@@ -2,12 +2,12 @@
 @import './identifier-info.css';
 
 .identifier {
-    block-size: 20rem;
+    block-size: 16rem;
     padding: 2rem;
     padding-block-end: 2rem;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1.5rem;
     white-space: nowrap;
 }
