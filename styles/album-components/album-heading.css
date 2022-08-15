@@ -1,0 +1,16 @@
+.searching-container.album-heading {
+    justify-content: flex-start;
+    align-items: center;
+}
+.album-heading .navigation button {
+    background-color: rgba(18, 18, 18, .8);
+    color: var(--white);
+}
+.album-heading .navigation button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+.album-heading .album-name {
+    color: var(--white);
+    margin: 0;
+}
