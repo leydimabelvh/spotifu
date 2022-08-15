@@ -7,3 +7,14 @@
 .albumListing-block .albumHeader {
     /* background-color: var(--gray40); */
 }
+.albumListing .sticky {
+    top: 4.375rem;
+}
+.album-play button{
+    inline-size: 3rem;
+    block-size: 3rem;
+}
+.album-play [class*='icon-']{
+    font-size: 1rem;
+    color: var(--gray60);
+}
