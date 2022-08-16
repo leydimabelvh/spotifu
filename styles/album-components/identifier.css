@@ -4,6 +4,7 @@
 .identifier {
     block-size: 16rem;
     padding: 2rem;
+    padding-block-start: .5rem;
     padding-block-end: .75rem;
     display: flex;
     align-items: flex-end;
