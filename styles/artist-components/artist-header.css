@@ -1,0 +1,7 @@
+.artist-page .identifier {
+    block-size: 24rem;
+    background-image: url(../../assets/images/album-cover/cover-album.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -10,6 +10,7 @@
 @import './layout.css';
 @import './scrollbar.css';
 @import './album.css';
+@import './artist.css';
 
 :root {
     /* Colors*/
