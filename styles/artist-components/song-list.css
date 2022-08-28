@@ -9,3 +9,8 @@
 .songListing .playSong-container {
     justify-content: center;
 }
+
+.followArtist-container {
+    /* border: 1px solid var(--white); */
+    border-radius: 4px;
+}

@@ -23,3 +23,8 @@
 .saveAlbum {
     color: var(--primary);
 }
+
+.followArtist {
+    color: var(--white);
+    font: var(--baseFontBold);
+}
