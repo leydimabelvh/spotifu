@@ -1,16 +1,3 @@
-.songListing .nameSong-container {
-    padding-inline-start: 1rem;
-}
-
-.songListing .like-song {
-    color: var(--primary);
-}
-
-.songListing .playSong-container {
-    justify-content: center;
-}
-
-.followArtist-container {
-    /* border: 1px solid var(--white); */
-    border-radius: 4px;
+.songList-title {
+    color: var(--white);
 }

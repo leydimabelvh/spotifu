@@ -1,0 +1,10 @@
+.songContainer-block .followArtist-container .buttonIcon {
+    inline-size: 5rem;
+    block-size: 1.75rem;
+    border: 1px solid var(--gray20);
+    border-radius: 4px;   
+    margin-inline-start: .5rem;
+}
+.songContainer-block .followArtist-container:hover .buttonIcon {
+    border: 1px solid var(--white);
+}

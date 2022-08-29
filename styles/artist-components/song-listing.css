@@ -1,5 +1,11 @@
-
-.songList {
-    color: var(--white);
+.songListing .nameSong-container {
+    padding-inline-start: 1rem;
 }
 
+.songListing .like-song {
+    color: var(--primary);
+}
+
+.songListing .playSong-container {
+    justify-content: center;
+}
