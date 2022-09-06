@@ -2,3 +2,5 @@
 @import '../styles/artist-components/song-listing.css';
 @import '../styles/artist-components/song-list.css';
 @import '../styles/artist-components/song-container.css';
+@import '../styles/artist-components/info-song.css';
+@import '../styles/artist-components/liked-song.css';

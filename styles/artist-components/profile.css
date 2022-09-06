@@ -1,0 +1,26 @@
+.profile {
+    inline-size: 5rem;
+    block-size: 5rem;
+    border-radius: 50%;
+    position: relative;
+}
+.profile img {
+    inline-size: 5rem;
+    block-size: 5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    object-fit: contain;
+}
+.profile .buttonIcon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+}
+ /* Heart icon */
+ .profile .buttonIcon .icon-heart {
+    position: relative;
+    left: 0px;
+    top: 2px;
+}
