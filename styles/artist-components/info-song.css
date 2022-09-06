@@ -1,0 +1,13 @@
+.infoSong {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--white);
+}
+.infoSong-title {
+    font: var(--baseFontBold);
+}
+.infoSong-author {
+    color: var(--gray10);
+}
