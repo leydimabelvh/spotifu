@@ -1,0 +1,37 @@
+.artistPick-block {
+    display: flex;
+    gap: 1rem;
+}
+.artistPick-cover img {
+    inline-size: 5rem;
+    block-size: 5rem;
+}
+.artistPick-infoAlbum{
+    inline-size: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+    color: var(--white);
+    font: var(--baseFont);
+}
+.artistPick-nameAlbum {
+    background-color: #ebe6e6;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray60);
+    border-radius: 1.5625rem;
+    inline-size: 14rem;
+    block-size: 1.75rem;
+}
+.artistPick-nameAlbum img {
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    border-radius: 50%;
+    margin-left: 0.125rem;
+}
+.infoAlbum-title {
+    font: var(--baseFontBold);
+}
