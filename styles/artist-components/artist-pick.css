@@ -17,7 +17,7 @@
     font: var(--baseFont);
 }
 .artistPick-nameAlbum {
-    background-color: #ebe6e6;
+    background-color: var(--white);
     display: flex;
     align-items: center;
     gap: 1rem;
