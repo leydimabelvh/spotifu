@@ -20,3 +20,13 @@
     block-size: 15rem;
     vertical-align: middle;
 }
+
+
+.identifier-identity {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+}
+.identifier-identity .identifier-heading {
+    font: var(--baseFont)
+}
