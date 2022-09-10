@@ -2,7 +2,7 @@
 @import './album-container.css';
 @import './album-heading.css';
 
-.album-page {
+.artist-page {
     background: rgb(18,18,18);
     background: linear-gradient(0deg, rgb(18, 18, 18, 1) 65%, rgb(79, 3, 3, 1) 90%);
 }
