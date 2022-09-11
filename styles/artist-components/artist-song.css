@@ -1,0 +1,12 @@
+.artistSong-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+.artistSong-container .songList-title {
+    margin-block-start: 0;
+    margin-block-end: 1.5rem;
+}
