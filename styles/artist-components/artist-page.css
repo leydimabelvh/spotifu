@@ -4,7 +4,7 @@
 
 .artist-page {
     background: rgb(18,18,18);
-    background: linear-gradient(0deg, rgb(18, 18, 18, 1) 65%, rgb(79, 3, 3, 1) 90%);
+    background: linear-gradient(0deg, rgb(18, 18, 18, 1) 65%, rgb(120, 10, 10) 90%); 
 }
 .artist-page-block {
     display: flex;
@@ -16,7 +16,7 @@
     padding-block-start: .6875rem;
     padding-block-end: .6875rem;
 }
-.album-page-block .playlistList {
+.artist-page-block .playlistList {
     padding: 2rem;
     padding-block-start: 0;
 }

@@ -1,0 +1,13 @@
+.artistJoin-container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+.artistJoin-container .artistList-song{
+    flex-grow: 9;
+}
+.artistJoin-container .artistInfo-container {
+    flex-grow: 1;
+}
