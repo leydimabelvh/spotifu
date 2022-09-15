@@ -2,6 +2,7 @@
     padding: 1.5rem;
     padding-inline-start: 2rem;
     padding-inline-end: 2rem;
+    padding-block-end: 0;
 }
 .discography-block {
     margin-bottom: 1.5rem;
