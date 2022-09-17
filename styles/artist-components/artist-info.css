@@ -6,3 +6,10 @@
     padding-inline-start: 2rem;
     padding-inline-end: 2rem;
 }
+
+@media screen and (max-width: 1199.98px) {
+    .artistInfo-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
