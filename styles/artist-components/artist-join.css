@@ -11,3 +11,9 @@
 .artistJoin-container .artistInfo-container {
     flex-grow: 1;
 }
+
+@media screen and (max-width: 1199.98px) {
+    .artistJoin-container{
+        flex-direction: column;
+    }
+}
