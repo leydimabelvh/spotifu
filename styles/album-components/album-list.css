@@ -56,4 +56,6 @@
     justify-content: flex-end;
     align-items: center;
     inline-size: 3rem;
+    padding-inline-start: .5rem;
+    padding-inline-end: .5rem;
 }
