@@ -1,3 +1,17 @@
+:root {
+    --minInlineSize: 48rem;
+    --minBlockSize: 37.5rem;
+    --sidebarInlineSize: 15rem;
+    
+    --logo: 2.4375rem;
+    --menuItem: 7.5rem;
+    --library: 7rem;
+    --gap: 9.375rem; 
+    /*Two padding and three gaps of 1.5rem each one + Height of playlists text of 1.375rem + Margin of heading*/
+    --bottomSize: 5.8125rem;
+    --spaceSidebar: calc(var(--logo) + var(--menuItem) + var(--library) + var(--gap) + var(--bottomSize));
+}
+
 .list {
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
@@ -7,7 +21,6 @@
     margin-block-start: 0;
     margin-block-end: .5rem;
 }
-
 .list-content {
     padding: 0;
     margin: 0;
@@ -19,4 +32,10 @@
 .list-item a{
     font: var(--baseFontBold);
     transition: color .2s;	
+}
+.listSidebar-container {
+    inline-size: var(--sidebarInlineSize);
+    block-size: calc(100vh - var(--spaceSidebar));
+    overflow: auto;
+    inline-size: 13.5rem;
 }
