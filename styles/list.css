@@ -33,6 +33,9 @@
     font: var(--baseFontBold);
     transition: color .2s;	
 }
+.list-item .link:hover{
+    text-decoration: none;
+}
 .listSidebar-container {
     inline-size: var(--sidebarInlineSize);
     block-size: calc(100vh - var(--spaceSidebar));
