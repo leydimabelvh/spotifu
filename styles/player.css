@@ -27,6 +27,8 @@
 .player-nowPlaying {
     display: flex;
     justify-content: flex-start;
+
+    min-inline-size: 0;
 }
 .player-volumeControl {
     display: flex;
