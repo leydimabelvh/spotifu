@@ -35,4 +35,5 @@
 .infoAlbum-title {
     font: var(--baseFontBold);
     color: var(--white);
+    cursor: pointer;
 }

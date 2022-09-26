@@ -8,6 +8,7 @@
 .infoSong-title {
     font: var(--baseFontBold);
     color: var(--white);
+    cursor: pointer;
 }
 .infoSong-author {
     color: var(--gray10);
