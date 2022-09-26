@@ -4,6 +4,8 @@
 }
 .nameSong {
     flex: 4;
+
+    min-inline-size: 0;
 }
 .playSong{
     flex: 2;
