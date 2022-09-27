@@ -30,3 +30,10 @@
 .identifier-identity .identifier-heading {
     font: var(--baseFont)
 }
+
+@media screen and (max-width: 1199.98px) {
+    .identifier-coverAlbum img {
+        inline-size: 12.5rem;
+        block-size: 12.5rem;
+    }
+}

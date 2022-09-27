@@ -8,14 +8,50 @@
     color: var(--white);
     font: var(--baseFontBold);
 }
-.identifier-title{
+.identifier-title {
     padding-block-end: 1rem;
 }
-.identifier-titleAlbum{
+.identifier-titleAlbum {
     font: var(--headline1);
     font-size: 6rem;
     color: var(--white);  
     margin: 0;
     white-space: nowrap;
     letter-spacing: -.25rem;    
+}
+.identifier-titleArtist {
+    letter-spacing: -.125rem; 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .identifier-titleAlbum {
+        font-size: 4.5rem;
+        letter-spacing: -.1875rem;
+    }
+    .identifier-titleArtist {
+        font-size: 4.5rem;
+        letter-spacing: -.125rem;
+    }
+}
+
+@media screen and (min-width: 827px) and (max-width: 991.98px) {
+    .identifier-titleAlbum {
+        font-size: 3rem;
+        letter-spacing: -.125rem;
+    }
+    .identifier-titleArtist {
+        font-size: 4.5rem;
+        letter-spacing: -.125rem;
+    }
+}
+
+@media screen and (max-width: 826.98px) {
+    .identifier-titleAlbum {
+        font-size: 2rem;
+        letter-spacing: -.0625rem;
+    }
+    .identifier-titleArtist {
+        font-size: 4.5rem;
+        letter-spacing: -.125rem;
+    }
 }
